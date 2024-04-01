@@ -1,0 +1,43 @@
+.banner {
+    
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.push-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.lista-pestañas {
+    display: flex;
+    align-items: center;
+}
+
+.Contact-Language {
+    display: flex;
+    align-items: center;
+}
+
+.li-style {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.telephone-icon {
+    height: 35px;
+    width: 35px;
+}
+
+.icon-lenguage{
+    cursor: pointer;
+    height: 33px;
+    width: 33px;
+}

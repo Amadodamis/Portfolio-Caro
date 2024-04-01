@@ -1,0 +1,30 @@
+.section{
+    height: 250px;
+    width: 900px;
+    display: flex;
+    
+    background-color: gray;
+}
+
+.box{
+    height: 150px;
+    border: 1px black solid;
+    width: 150px;
+}
+
+.box1{
+    background-color: var(--color1);
+}
+
+.box2{
+    background-color: var(--color2);
+}
+.box3{
+    background-color: var(--color3);
+}
+.box4{
+    background-color: var(--color4);
+}
+.box5{
+    background-color: var(--color5);
+}
