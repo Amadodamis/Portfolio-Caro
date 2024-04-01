@@ -1,0 +1,86 @@
+.year-line {
+    height: 5px;
+    width: 1px;
+    background-color: black;
+}
+
+.history-line {
+    height: 1px;
+    background-color: var(--color5);
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-row-start: 4;
+}
+
+
+
+.text-numbers {
+    font-family: var(--text);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.f2012 {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.f2013 {
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+
+.f2014 {
+    grid-column-start: 4;
+    grid-row-start: 4;
+}
+
+.f2015 {
+    grid-column-start: 5;
+    grid-row-start: 4;
+}
+
+.f2016 {
+    grid-column-start: 6;
+    grid-row-start: 4;
+}
+
+.f2017 {
+    grid-column-start: 7;
+    grid-row-start: 4;
+}
+
+.f2018 {
+    grid-column-start: 8;
+    grid-row-start: 4;
+}
+
+.f2019 {
+    grid-column-start: 9;
+    grid-row-start: 4;
+}
+
+.f2020 {
+    grid-column-start: 10;
+    grid-row-start: 4;
+}
+
+.f2021 {
+    grid-column-start: 11;
+    grid-row-start: 4;
+}
+
+.f2022 {
+    grid-column-start: 12;
+    grid-row-start: 4;
+}
+
+.f2023 {
+    grid-column-start: 13;
+    grid-row-start: 4;
+}
+
+.f2024 {
+    grid-column-start: 14;
+    grid-row-start: 4;
+}

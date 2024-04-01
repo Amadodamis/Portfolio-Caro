@@ -1,0 +1,22 @@
+.arrow-down {
+    height: 30px;
+    width: 30px;
+}
+
+.container-arrow {
+    height: 35px;
+    width: 35px;
+  
+    cursor: pointer;
+    position: fixed;
+    top: 93%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-arrow:hover {
+    align-items: flex-end;
+}
+

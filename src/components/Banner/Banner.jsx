@@ -16,6 +16,7 @@ function Banner() {
                     <li className='li-style'>Formacion Academica</li>
                     <li className='li-style'>Experiencia</li>
                     <li className='li-style'>Curriculum</li>
+                    <li className='li-style'>Contacto</li>
                 </ul>
             </nav>
 

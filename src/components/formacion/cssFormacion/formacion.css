@@ -1,0 +1,98 @@
+/* Grid principal*/
+.formacion-main {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 7% 7% 7% 7% 7% 7% 7% 7% 7% 7% 7% 7% 7% 7%;
+    grid-template-rows: 16% 16% 16% 16% 16% 16%;
+}
+
+/********************************************************/
+/* Texto dentro de la historia del año*/
+
+.text-story-line {
+    padding: 5px;
+    font-family: var(--text);
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--color3);
+}
+
+
+/********************************************************/
+
+
+
+.container-story-line {
+    background-color: var(--color4);
+    border-radius: 12px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    cursor: pointer;
+}
+
+.container-story-line:hover {
+    background-color: var(--color5);
+}
+
+
+/********************************************************/
+
+/*********************** Dimension del container *********************************/
+.b2012 {
+    width: 200px;
+}
+
+.b2022 {
+    width: 200px;
+}
+
+.b2023 {
+    width: 200px;
+
+}
+
+.b2024 {
+    width: 100px;
+}
+
+/********************************************************/
+
+.line-2012-story {
+    border-left: 1px var(--color4) solid;
+    border-radius: 12px;
+    border-bottom-left-radius: 0px;
+
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.line-2022-story {
+    border-left: 1px var(--color4) solid;
+    border-radius: 12px;
+    border-bottom-left-radius: 0px;
+
+    grid-column-start: 12;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.line-2023-story {
+    border-left: 1px var(--color4) solid;
+    border-radius: 12px;
+    border-bottom-left-radius: 0px;
+
+    grid-column-start: 13;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.line-2024-story {
+    border-left: 1px var(--color4) solid;
+    border-radius: 12px;
+    border-bottom-left-radius: 0px;
+
+    grid-column-start: 14;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}

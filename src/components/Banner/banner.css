@@ -1,14 +1,12 @@
 .banner {
     position: fixed;
     top: 0%;
-    height: 45px;
+    height: 9vh;
     width: 100vw;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-grow: 1;
-
     background-color: var(--color5);
 }
 
@@ -31,8 +29,17 @@
 .li-style {
     display: flex;
     align-items: center;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: var(--text);
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--color3);
+    cursor: pointer;
+}
+
+.li-style:hover {
+    text-decoration: underline;
 }
 
 .telephone-icon {
@@ -40,7 +47,7 @@
     width: 35px;
 }
 
-.icon-lenguage{
+.icon-lenguage {
     cursor: pointer;
     height: 33px;
     width: 33px;
