@@ -1,15 +1,23 @@
 .section{
-    height: 250px;
-    width: 900px;
-    display: flex;
-    
+    height: 150px;
+    width: 360px;
     background-color: gray;
+    position:fixed;
+    right: 0%;
+    top: 70%;
+    text-align: center;
+}
+
+.container-box-colores{
+    display: flex;
 }
 
 .box{
-    height: 150px;
+    height: 50px;
+    width: 70px;
     border: 1px black solid;
-    width: 150px;
+    font-size: 10px;
+    text-align: center;
 }
 
 .box1{
@@ -27,4 +35,20 @@
 }
 .box5{
     background-color: var(--color5);
+}
+
+.titulo{
+    font-size: 17px;
+    font-family: var(--title);
+    font-style: italic;
+    font-weight: 700;
+}
+
+
+
+.texto{
+    font-family: var(--text);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
 }

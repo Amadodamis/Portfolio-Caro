@@ -5,21 +5,22 @@
   --color3: #CCE3DE;
   --color4: #A4C3B2;
   --color5: #6B9080;
-
+  --title: "Titillium Web", sans-serif;
+  --text: "Hind Madurai", sans-serif;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-/*
+  /*
 opcion 1
 background-image: linear-gradient(to right top, #f6fff8, #ecf8f1, #e1f1ea, #d7eae4, #cce3de);
 */
 
-/* opcion 2
+  /* opcion 2
 background-image: linear-gradient(to right top, #eaf4f4, #e2f0ef, #dbecea, #d3e7e4, #cce3de);
 */
 
-background-image: linear-gradient(to right top, #eaf4f4, #d6e8e6, #c4dcd6, #b3cfc5, #a4c3b2);
+  background-image: linear-gradient(to right top, #eaf4f4, #d6e8e6, #c4dcd6, #b3cfc5, #a4c3b2);
 
 
   font-synthesis: none;
@@ -36,7 +37,7 @@ body {
   min-height: 100vh;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -44,7 +45,7 @@ ul {
   list-style-type: none;
 }
 
-*{
-  margin:0px;
+* {
+  margin: 0px;
   padding: 0px;
 }

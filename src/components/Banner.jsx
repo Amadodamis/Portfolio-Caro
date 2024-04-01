@@ -1,10 +1,9 @@
 import React from 'react'
 import "./banner.css"
-import iconTelephone from "../../public/iconos/telephone-icon.png"
-import iconEng from "../../public/iconos/English.png"
-import iconSpanish from "../../public/iconos/spain.png"
-import iconAleman from "../../public/iconos/aleman.png"
-
+import iconTelephone from "/iconos/telephone-icon.png"
+import iconEng from "/iconos/English.png"
+import iconSpanish from "/iconos/spain.png"
+import iconAleman from "/iconos/aleman.png"
 
 
 function Banner() {

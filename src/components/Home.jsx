@@ -1,9 +1,9 @@
 import React from 'react'
 import "./home.css"
-import lorem from '../../public/Js/textos'
 
-import fotoCaro from "../../public/fotocaro.jpg"
-import dArrow from "../../public/iconos/down-arrow.png"
+import lorem from '../../public/Js/textos'
+import fotoCaro from "/fotocaro.jpg"
+import dArrow from "/iconos/down-arrow.png"
 
 function Home() {
     return (<section className='home'>
