@@ -2,7 +2,7 @@ import React from 'react'
 import "./cssFormacion/formacion.css"
 import "./cssFormacion/line-story.css"
 import BoxFechas from './BoxFechas'
-import { textoHistoria2012, textoHistoria2022, textoHistoria2023, textoHistoria2024 } from '../../../public/Js/textos'
+import { textoHistoria2012, textoHistoria2022, textoHistoria2023, textoHistoria2024 } from '../../Js/textos'
 
 
 function FormacionAcademica() {

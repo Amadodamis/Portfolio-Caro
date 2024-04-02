@@ -1,9 +1,9 @@
 import React from 'react'
 import "./banner.css"
-import iconTelephone from "/iconos/telephone-icon.png"
-import iconEng from "/iconos/English.png"
-import iconSpanish from "/iconos/spain.png"
-import iconAleman from "/iconos/aleman.png"
+import iconTelephone from "../../img/iconos/telephone-icon.png"
+import iconEng from "../../img/iconos/English.png"
+import iconSpanish from "../../img/iconos/spain.png"
+import iconAleman from "../../img/iconos/aleman.png"
 
 
 function Banner() {
@@ -25,6 +25,7 @@ function Banner() {
                     <img src={iconTelephone}
                         alt='icon-telephone'
                         className='telephone-icon' />
+                        
                     <p>+54 221-123456789</p>
                 </li>
 

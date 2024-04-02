@@ -37,6 +37,10 @@
     background-color: var(--color5);
 }
 
+.box6{
+    background-color: var(--color6);
+}
+
 .titulo{
     font-size: 17px;
     font-family: var(--title);

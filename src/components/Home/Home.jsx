@@ -1,8 +1,8 @@
 import React from 'react'
 import "./home.css"
 
-import { lorem } from '../../../public/Js/textos'
-import fotoCaro from "/fotocaro.jpg"
+import { lorem } from '../../Js/textos'
+import fotoCaro from "../../img/fotocaro.jpg"
 
 
 function Home() {

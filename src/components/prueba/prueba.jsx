@@ -18,6 +18,8 @@ function prueba() {
           #A4C3B2</div>
         <div className='box box5'>var(--color5)
           #6B9080</div>
+        <div className='box box6'>var(--color6)
+        #364958</div>
       </section>
     </section>
   )

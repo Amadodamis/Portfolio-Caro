@@ -1,5 +1,5 @@
 import React from 'react'
-import dArrow from "../../../public/iconos/down-arrow.png"
+import dArrow from "../../img/iconos/down-arrow.png"
 
 function arrowDown() {
     return (
